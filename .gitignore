@@ -1,0 +1,7 @@
+# Files and folders that add no benefit to the repo
+github/
+node_modules/
+dist/
+*.replit
+*.yaml
+vercel.json

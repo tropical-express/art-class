@@ -1,0 +1,30 @@
+{
+  "name": "artclass",
+  "version": "4.0.0",
+  "main": "electron.cjs",
+
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+
+  "build": {
+    "appId": "com.artclass.app",
+    "productName": "ArtClass",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico"
+    }
+  },
+
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
